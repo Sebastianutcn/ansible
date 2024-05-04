@@ -28,4 +28,8 @@ terraform apply plan.out --auto-approve
 2. `inventory.ini` is used to store hosts.
 3. `ansible.cfg` is used as a configuration file for ansible, the inventory file is defined and host_key_checking is set to 'false'.
 
-   
+# Execute tasks
+- Ansible command to execute the defined tasks on the specified hosts
+```
+ansible-playbook playbook.yml
+```
