@@ -24,9 +24,9 @@ terraform apply plan.out --auto-approve
 ```
 
 ## **Ansible files:**
-1. `playbook.yml` has a play for a host group named [aws_ec2], where are tasks defined to install Nginx, allow access on port 80 and start the Nginx server.
-2. `inventory.ini` is used to store hosts.
-3. `ansible.cfg` is used as a configuration file for ansible, the inventory file is defined and host_key_checking is set to 'false'.
+1. [`playbook.yml`](https://github.com/Sebastianutcn/ansible-terraform/blob/main/playbook.yml) has a play for a host group named [aws_ec2], where are tasks defined to install Nginx, allow access on port 80 and start the Nginx server.
+2. [`inventory.ini`](https://github.com/Sebastianutcn/ansible-terraform/blob/main/inventory.ini) is used to store hosts.
+3. [`ansible.cfg`](https://github.com/Sebastianutcn/ansible-terraform/blob/main/ansible.cfg) is used as a configuration file for ansible, the inventory file is defined and host_key_checking is set to 'false'.
 
 ## Execute tasks
 - Ansible command to execute the defined tasks on the specified hosts
